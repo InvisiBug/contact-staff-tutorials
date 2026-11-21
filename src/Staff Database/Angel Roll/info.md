@@ -1,16 +1,16 @@
 # Angel Roll
 
 ---
-Status: Learned
-Family: Angel
-Category: Fundamental
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+status: Learned
+family: Angel
+category: Fundamental
+need: 5
+difficulty: 2
+mastery: 🌟🌟🌟🌟
 Extra notes: Will need to learn left hand at some point
 Improvement notes: My left arm needs to be bent back more
-Ingest: No
-Staff Type: Contact
+ingest: No
+propType: Contact
 Where was it first learned: MCP
 id:9510e7cb40024c3f8aac00c8644f43ee
 ---

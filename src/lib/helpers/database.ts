@@ -1,4 +1,4 @@
-import type { Move, Meta } from "@/lib/types";
+import type { Move, Meta, Statuses, Families, Rating } from "@/lib/types";
 
 const markdownFiles = import.meta.glob("/src/Staff Database/**/*.md", {
   query: "?raw",
@@ -29,10 +29,7 @@ const getMediaUrls = (markdown: string, markdownPath: string): string[] => {
     }
 
     const imagePath = decodeURIComponent(image.split(/[?#]/, 1)[0]).replace(/^\.\//, "");
-    const mediaCandidates = [
-      `/src/Staff Database/${imagePath}`,
-      `/src/Staff Database/${folder ? `${folder}/` : ""}${imagePath}`,
-    ];
+    const mediaCandidates = [`/src/Staff Database/${imagePath}`, `/src/Staff Database/${folder ? `${folder}/` : ""}${imagePath}`];
     const resolvedPath = mediaCandidates.find((path) => path in mediaFiles);
 
     return resolvedPath ? [mediaFiles[resolvedPath]] : [];
@@ -117,16 +114,21 @@ const getMarkdownMeta = (markdown: string): Record<string, string> => {
   return properties;
 };
 
-const countRating = (value: string | undefined, character: string): number => (value?.split(character).length ? (value.match(new RegExp(`\\${character}`, "g"))?.length ?? 0) : 0);
+const countRating = (value: string | undefined, character: string): Meta["need"] => {
+  const numericValue = Number(value);
+  const count = Number.isFinite(numericValue) ? numericValue : (value?.match(new RegExp(`\\${character}`, "g"))?.length ?? 1);
+  return Math.min(5, Math.max(1, count)) as Meta["need"];
+};
 
 const getMeta = (metadata: Record<string, string>): Meta => ({
-  status: metadata.Status ?? "",
-  family: metadata.Family ?? "",
-  category: metadata.Category ?? "",
-  need: countRating(metadata["How badly do I need it"], "⭐"),
-  difficulty: countRating(metadata.Difficulty, "💀"),
-  ingest: /^yes$/i.test(metadata.Ingest ?? ""),
-  type: metadata["Staff Type"] ?? "",
+  id: metadata.id,
+  status: (metadata.status || "Next") as Meta["status"],
+  family: (metadata.family || "Other") as Meta["family"],
+  category: (metadata.category || "Move") as Meta["category"],
+  need: countRating(metadata.need, "⭐"),
+  difficulty: countRating(metadata.difficulty, "💀"),
+  ingest: /^yes$/i.test(metadata.ingest ?? ""),
+  propType: (metadata.propType || "Contact") as Meta["propType"],
   where: metadata["Where was it first learned"] ?? "",
 });
 

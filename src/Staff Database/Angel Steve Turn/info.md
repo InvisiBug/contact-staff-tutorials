@@ -1,13 +1,13 @@
 # Angel Steve Turn
 
 ---
-Status: Learning
-Family: Angel, Fishtail, Steve
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+status: Learning
+family: Angel, Fishtail, Steve
+need: 4
+difficulty: 5
 Date: August 17, 2026
-Ingest: No
-Staff Type: Contact, Doubles
+ingest: No
+propType: Contact, Doubles
 Where was it first learned: Insta
 id:3bf6b010191f8064aaeadc5b5b0c3da8
 ---

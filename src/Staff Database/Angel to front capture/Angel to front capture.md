@@ -1,14 +1,14 @@
 # Angel to front capture
 
 ---
-Status: Learned
-Family: SNES
-Category: Move
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
-Ingest: No
-Staff Type: Contact
+status: Learned
+family: SNES
+category: Move
+need: 4
+difficulty: 2
+mastery: 🌟🌟🌟🌟
+ingest: No
+propType: Contact
 Where was it first learned: Insta
 id:2386b010191f807b80c1c72a0032ae7e
 ---

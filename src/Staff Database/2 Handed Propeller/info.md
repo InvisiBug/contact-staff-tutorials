@@ -1,13 +1,13 @@
 # 2 Handed Propeller
 
 ---
-Status: Learned
-Family: Fishtail
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
-Ingest: No
-Staff Type: Contact
+status: Learned
+family: Fishtail
+need: 2
+difficulty: 3
+mastery: 🌟🌟
+ingest: No
+propType: Contact
 id: cf05963fc2174007ba53dd549dfa1159
 ---
 

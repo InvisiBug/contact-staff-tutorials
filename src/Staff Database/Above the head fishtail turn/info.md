@@ -1,13 +1,13 @@
 # Above the head fishtail turn
 
 ---
-Status: Learning
-Family: Fishtail
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
-Ingest: No
-Staff Type: Contact
+status: Learning
+family: Fishtail
+need: 4
+difficulty: 4
+mastery: 🌟
+ingest: No
+propType: Contact
 id:620b45c1e84d4ff39f230b38af2ed993
 ---
 

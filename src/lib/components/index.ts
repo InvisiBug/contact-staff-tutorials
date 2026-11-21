@@ -5,7 +5,7 @@ export { default as ErrorPage } from "./errorPages";
 
 export { default as NavBar } from "./navBar";
 export { default as ScrollToTop } from "./scrollToTop";
-export { default as SideBar, SideBarDropdown } from "./sideBar";
+export { default as SideBar } from "./sideBar/sideBar";
 export * from "./icons";
 
 //? Simulations

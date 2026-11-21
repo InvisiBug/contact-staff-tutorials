@@ -1,16 +1,16 @@
 # Angel to vertical stall
 
 ---
-Status: Learning
-Family: Angel
-Category: Move
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+status: Learning
+family: Angel
+category: Move
+need: 5
+difficulty: 4
+mastery: 🌟🌟🌟
 Drill reps: Foundation
-Ingest: No
+ingest: No
 Me: Me
-Staff Type: Contact
+propType: Contact
 Where was it first learned: Random Playing About
 id:3e76b010191f809485b0ce485194971a
 ---

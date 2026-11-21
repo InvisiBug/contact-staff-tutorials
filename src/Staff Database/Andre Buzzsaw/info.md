@@ -1,15 +1,15 @@
 # Andre Buzzsaw
 
 ---
-Status: Learning
-Family: Fishtail
-Category: Move
-How badly do I need it: ⭐⭐
-Difficulty: 💀
+status: Learning
+family: Fishtail
+category: Move
+need: 2
+difficulty: 1
 Drill reps: 🆕
 Date: August 31, 2026
-Ingest: No
-Staff Type: Contact
+ingest: No
+propType: Contact
 Where was it first learned: MCP
 id:3cd6b010191f8044b162c04b8051236c
 ---
