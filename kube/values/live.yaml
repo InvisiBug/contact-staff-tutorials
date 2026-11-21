@@ -1,0 +1,26 @@
+name: kavanet-io
+
+namespace: kavanet-io
+env:
+  APP_VERSION: 424a23ff0a95487b256a8683746df7497a54a63e
+
+deployment:
+  - name: kavanet-io
+    image: invisibug/kavanet-io
+    ports:
+      - port: 80
+    # env:
+    # Handled in Dockerfile.live
+
+ingress:
+  - name: kavanet-io
+    selector: kavanet-io
+    path: /
+    port: 80
+    host: kavanet.io
+
+service:
+  loadBalancer:
+    - name: kavanet-io
+      selector: kavanet-io
+      port: 80
