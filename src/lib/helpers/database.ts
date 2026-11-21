@@ -1,4 +1,4 @@
-import type { Entry, Meta } from "@/lib/types";
+import type { Move, Meta } from "@/lib/types";
 
 const markdownFiles = import.meta.glob("/src/Staff Database/**/*.md", {
   query: "?raw",
@@ -28,9 +28,12 @@ const getMediaUrls = (markdown: string, markdownPath: string): string[] => {
       return [image];
     }
 
-    const imagePath = decodeURIComponent(image.split(/[?#]/, 1)[0]);
-    const mediaPath = `/src/Staff Database/${folder ? `${folder}/` : ""}${imagePath}`;
-    const resolvedPath = Object.keys(mediaFiles).find((path) => path === mediaPath);
+    const imagePath = decodeURIComponent(image.split(/[?#]/, 1)[0]).replace(/^\.\//, "");
+    const mediaCandidates = [
+      `/src/Staff Database/${imagePath}`,
+      `/src/Staff Database/${folder ? `${folder}/` : ""}${imagePath}`,
+    ];
+    const resolvedPath = mediaCandidates.find((path) => path in mediaFiles);
 
     return resolvedPath ? [mediaFiles[resolvedPath]] : [];
   });
@@ -114,8 +117,7 @@ const getMarkdownMeta = (markdown: string): Record<string, string> => {
   return properties;
 };
 
-const countRating = (value: string | undefined, character: string): number =>
-  value?.split(character).length ? (value.match(new RegExp(`\\${character}`, "g"))?.length ?? 0) : 0;
+const countRating = (value: string | undefined, character: string): number => (value?.split(character).length ? (value.match(new RegExp(`\\${character}`, "g"))?.length ?? 0) : 0);
 
 const getMeta = (metadata: Record<string, string>): Meta => ({
   status: metadata.Status ?? "",
@@ -128,7 +130,7 @@ const getMeta = (metadata: Record<string, string>): Meta => ({
   where: metadata["Where was it first learned"] ?? "",
 });
 
-export const staffDatabase: Entry[] = Object.entries(markdownFiles).map(([path, markdown]) => {
+export const staffDatabase: Move[] = Object.entries(markdownFiles).map(([path, markdown]) => {
   const metadata = getMarkdownMeta(markdown);
 
   return {
@@ -142,23 +144,4 @@ export const staffDatabase: Entry[] = Object.entries(markdownFiles).map(([path, 
 
 export const getStaffDatabase = () => {
   return staffDatabase;
-};
-
-type entry = {
-  name: string;
-  id: string;
-  meta: meta;
-  gif: string[];
-  text: string;
-};
-
-type meta = {
-  status: string;
-  family: string;
-  category: string;
-  need: number;
-  difficulty: number;
-  ingest: boolean;
-  type: string;
-  where: string;
 };

@@ -1,31 +1,50 @@
-import { Link } from "react-router-dom";
-import { type ProjectEntry } from "@/lib/types";
-import AssetImage from "../assetImage";
-import Meta from "./meta";
 import type { FC } from "react";
+import type { Move } from "@/lib/types";
 
-const MoveCard: FC<FeaturedCardProps> = ({ project }) => {
+const metaLabels: Record<keyof Move["meta"], string> = {
+  status: "Status",
+  family: "Family",
+  category: "Category",
+  need: "Need",
+  difficulty: "Difficulty",
+  ingest: "Ingest",
+  type: "Type",
+  where: "Where",
+};
+
+const MoveCard: FC<MoveCardProps> = ({ move }) => {
+  console.log("🚀 ~ MoveCard ~ move:", move);
+
   return (
-    <Link key={project.slug} className="flex h-full max-w-full flex-col rounded-[0.9rem] overflow-hidden border border-(--line) bg-(--surface-soft) no-underline text-inherit" to={`/${project.category}/${project.slug}`}>
-      <AssetImage imagePath={project.imagePath} alt={`${project.title} placeholder`} data-no-lightbox="true" className="block w-full object-cover" loading="lazy" />
-
-      <Meta project={project} />
-
-      <ul className="m-3 flex list-none flex-wrap gap-2 p-0" aria-label="Project tags">
-        {project.tags &&
-          project.tags.map((tag: string) => (
-            <li key={tag} className="flex items-center text-(--text) max-h-10 justify-center rounded-full border border-(--line) bg-(--surface-soft) px-2.5 py-1 text-[0.8rem]">
-              {tag}
-            </li>
+    <article className="flex h-full max-w-full flex-col overflow-hidden rounded-[0.9rem] border border-(--line) bg-(--surface-soft) text-inherit">
+      {move.gif.length > 0 && (
+        <div className="grid gap-2">
+          {move.gif.map((gif, index) => (
+            <img key={`${move.name}-gif-${index}`} src={gif} alt={`${move.name} demonstration ${index + 1}`} className="block w-full  object-cover" loading="lazy" />
           ))}
-      </ul>
-    </Link>
+        </div>
+      )}
+
+      <div className="flex flex-col gap-4 p-4">
+        <h2 className="m-0 text-xl font-semibold">{move.name}</h2>
+
+        <dl className="m-0 grid gap-0 text-sm">
+          {(Object.entries(move.meta) as Array<[keyof Move["meta"], Move["meta"][keyof Move["meta"]]]>).map(([key, value]) => (
+            <div key={key} className="grid grid-cols-[minmax(6rem,auto)_1fr] gap-3">
+              <dt className="font-medium text-(--text-muted)">{metaLabels[key]}</dt>
+              <dd className="m-0 text-(--text)">{typeof value === "boolean" ? (value ? "Yes" : "No") : value}</dd>
+            </div>
+          ))}
+        </dl>
+
+        {/* {move.text && <p className="m-0 whitespace-pre-wrap text-sm leading-6 text-(--text)">{move.text}</p>} */}
+      </div>
+    </article>
   );
 };
 
 export default MoveCard;
 
-interface FeaturedCardProps {
-  project: ProjectEntry;
-  simulationSketch?: any;
+interface MoveCardProps {
+  move: Move;
 }

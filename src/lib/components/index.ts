@@ -10,6 +10,7 @@ export { default as ExperienceDetails } from "./experienceDetails";
 
 export { default as NavBar } from "./navBar";
 export { default as ScrollToTop } from "./scrollToTop";
+export { default as SideBar } from "./sideBar";
 export * from "./icons";
 
 //? Simulations
@@ -20,3 +21,4 @@ export { P5Canvas } from "./p5Canvas";
 export { default as FullPictureCard } from "./cards/fullPicture";
 export { default as AboutMeCard } from "./cards/aboutMe";
 export { default as FeaturedBanner } from "./banners/featured/featuredBanner";
+export { default as MoveCard } from "./cards/move";

@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from "react";
 import { useLocation } from "react-router-dom";
-import { NavBar } from "@/lib/components";
+import { NavBar, SideBar } from "@/lib/components";
 
 const PageShell = ({ children }: PropsWithChildren) => {
   const location = useLocation();
@@ -9,7 +9,14 @@ const PageShell = ({ children }: PropsWithChildren) => {
   return (
     <div className={["page-shell min-h-screen", isLightboxEnabledRoute ? "lightbox-enabled" : ""].join(" ")}>
       <NavBar />
-      <main className="mx-auto w-[min(1120px,calc(100%-2rem))] px-0 pt-5 pb-12 max-[680px]:w-[min(1120px,calc(100%-1rem))]">{children}</main>
+
+      <div className="mx-auto grid items-start gap-6 lg:grid-cols-[16rem_minmax(0,1fr)]">
+        <SideBar title="Move filters" className="lg:top-0! lg:h-screen!">
+          <p className="m-0 text-sm text-(--text-muted)">Sorting and filtering options will go here.</p>
+        </SideBar>
+
+        <main>{children}</main>
+      </div>
     </div>
   );
 };

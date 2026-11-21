@@ -28,6 +28,14 @@ export const siteConfig = {
       },
     ],
   },
+  colours: {
+    status: {
+      next: "#876b2b",
+      learning: "#90573b",
+      training: "#416690",
+      learned: "#406f54",
+    },
+  },
   options: {
     featuredProjectsLimit: 4,
     homeScreenFeaturedRandom: true,

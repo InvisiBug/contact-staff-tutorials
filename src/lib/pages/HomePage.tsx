@@ -1,19 +1,16 @@
-import { Link } from "react-router-dom";
-import { HeroRotator, FullPictureCard, AboutMeCard, ErrorPage } from "@/lib/components";
-import { categoryMeta, siteConfig, workExperienceImageSrc, workExperienceSummary } from "@/data";
-import { getFeaturedProjects, getRandomProjectsByCategory } from "@/lib/helpers";
-import type { CategoryKey } from "@/lib/types";
-import { useMemo } from "react";
+import { MoveCard } from "@/lib/components";
 import { useMovesContext } from "../context";
 
 const HomePage = () => {
   const { staffDatabase } = useMovesContext();
-  console.log("🚀 ~ HomePage ~ staffDatabase:", staffDatabase);
+
   return (
-    <div className="grid gap-6">
-      {staffDatabase.map((move) => {
-        return <div>{move.name}</div>;
-      })}
+    <div className="columns-1 gap-6 sm:columns-2 lg:columns-3">
+      {staffDatabase.map((move) => (
+        <div key={move.id} className="mb-6 break-inside-avoid">
+          <MoveCard move={move} />
+        </div>
+      ))}
     </div>
   );
 };

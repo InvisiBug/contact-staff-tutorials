@@ -38,7 +38,7 @@ export type Meta = {
   where: string;
 };
 
-export type Entry = {
+export type Move = {
   name: string;
   id: string;
   meta: Meta;
