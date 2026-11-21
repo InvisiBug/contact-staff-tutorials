@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { AboutPage, NotFoundPage } from "@/lib/pages";
+import { NotFoundPage } from "@/lib/pages";
 import { LightboxHost, PageShell, ScrollToTop } from "@/lib/components";
 import { AppContextProvider, MovesContextProvider } from "@/lib/context";
 import HomePage from "@/lib/pages/HomePage";

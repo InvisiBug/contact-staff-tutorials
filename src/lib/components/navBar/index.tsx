@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type FC } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { SocialIconLink, Dropdown, ThemeToggleButton, Hamburger } from "./components";
+import { SocialIconLink, Dropdown, ThemeToggleButton } from "./components";
 import { siteConfig } from "@/data";
 import { useAppContext } from "@/lib/context";
 import { getToggledTheme } from "@/lib/helpers";
@@ -85,7 +85,7 @@ const SiteHeader: FC = () => {
         </div>
 
         {/* Hamburger Menu */}
-        <Hamburger isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} menuRef={mobileMenuRef} menuButtonRef={menuButtonRef} mobileMenuRef={mobileMenuRef} />
+        {/* <Hamburger isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} menuRef={mobileMenuRef} menuButtonRef={menuButtonRef} mobileMenuRef={mobileMenuRef} /> */}
       </div>
     </header>
   );
