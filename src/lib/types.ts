@@ -26,3 +26,22 @@ export interface LightboxImage {
   index: number;
   id: string;
 }
+
+export type Meta = {
+  status: string;
+  family: string;
+  category: string;
+  need: number;
+  difficulty: number;
+  ingest: boolean;
+  type: string;
+  where: string;
+};
+
+export type Entry = {
+  name: string;
+  id: string;
+  meta: Meta;
+  gif: string[];
+  text: string;
+};

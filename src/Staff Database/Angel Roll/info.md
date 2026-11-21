@@ -1,5 +1,6 @@
 # Angel Roll
 
+---
 Status: Learned
 Family: Angel
 Category: Fundamental
@@ -12,8 +13,9 @@ Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP
 id:9510e7cb40024c3f8aac00c8644f43ee
+---
 
-![Sequence 02.gif](Angel%20Roll/Sequence_02.gif)
+![gif](./vid.gif)
 
 The Angel Roll. A straight arm version of the halo roll. The arms always remain straight. Firstly you start it from reverse spinning, or reverse fishtails as I show in the vid. (darkly) I generally give the staff a pull toward me, to give it some ooph, then straighten my arm out again. You might find it easier to lift your arm higher than I do. I've managed to train myself out of that somewhat.
 
@@ -23,6 +25,3 @@ The second half is the mirror of the first. Have this arm straight out and ready
 
 If you're keeping both arms level through out the move, and having it just step nicely into your hand at the end, you're doing well. Obviously, learn a halo roll before you learn this.
 
-[https://youtu.be/nIdJrwGpNgY](https://youtu.be/nIdJrwGpNgY)
-
-[Doing a better Angel Roll  - Contact Staff Tutorial - mcp (720p_30fps_H264-192kbit_AAC).mp4](Angel%20Roll/Doing_a_better_Angel_Roll__-_Contact_Staff_Tutorial_-_mcp_(720p_30fps_H264-192kbit_AAC).mp4)

@@ -1,5 +1,6 @@
 # Angel Turn
 
+---
 Status: Learning
 Family: Angel
 Category: Move
@@ -10,8 +11,9 @@ Ingest: No
 Staff Type: Contact, Doubles
 Where was it first learned: Insta
 id:3096b010191f80ccb369f27259671bfe
+---
 
-![Timeline1-ezgif.com-optimize.gif](Angel%20Turn/Timeline1-ezgif.com-optimize.gif)
+![gif](./vid.gif)
 
 I think this is a frontside angel thats turned mid way through
 

@@ -4,11 +4,16 @@ import { categoryMeta, siteConfig, workExperienceImageSrc, workExperienceSummary
 import { getFeaturedProjects, getRandomProjectsByCategory } from "@/lib/helpers";
 import type { CategoryKey } from "@/lib/types";
 import { useMemo } from "react";
+import { useMovesContext } from "../context";
 
 const HomePage = () => {
+  const { staffDatabase } = useMovesContext();
+  console.log("🚀 ~ HomePage ~ staffDatabase:", staffDatabase);
   return (
     <div className="grid gap-6">
-      <h1>Soon to be contact staff database</h1>
+      {staffDatabase.map((move) => {
+        return <div>{move.name}</div>;
+      })}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 # Angel Steve Turn
 
+---
 Status: Learning
 Family: Angel, Fishtail, Steve
 How badly do I need it: ⭐⭐⭐⭐
@@ -9,8 +10,9 @@ Ingest: No
 Staff Type: Contact, Doubles
 Where was it first learned: Insta
 id:3bf6b010191f8064aaeadc5b5b0c3da8
+---
 
-![Timeline1-ezgif.com-optimize.gif](Angel%20Steve%20Turn/Timeline1-ezgif.com-optimize.gif)
+![gif](./vid.gif)
 
 Vert steve with one arm, angel with the other
 
