@@ -12,15 +12,30 @@ deployment:
     # env:
     # Handled in Dockerfile.live
 
-ingress:
-  - name: contact-staff-tutorials
-    selector: contact-staff-tutorials
-    path: /
-    port: 80
-    host: kavanet.io
-
 service:
-  loadBalancer:
-    - name: contact-staff-tutorials
-      selector: contact-staff-tutorials
-      port: 80
+  name: contactstafftutorials
+  selector: contactstafftutorials
+  port: 80
+  targetPort: 80
+
+httpRoute:
+  name: contactstafftutorials
+  gatewayName: kavanetes-gateway
+  gatewayNamespace: nginx-gateway
+  host: contactstafftutorials.com
+  path: /
+  serviceName: contactstafftutorials
+  servicePort: 80
+
+# service:
+#   loadBalancer:
+#     - name: contact-staff-tutorials
+#       selector: contact-staff-tutorials
+#       port: 80
+
+# ingress:
+#   - name: contact-staff-tutorials
+#     selector: contact-staff-tutorials
+#     path: /
+#     port: 80
+#     host: kavanet.io
