@@ -14,7 +14,7 @@ deployment:
 
 service:
   name: contactstafftutorials
-  selector: contactstafftutorials
+  selector: contact-staff-tutorials
   port: 80
   targetPort: 80
 
