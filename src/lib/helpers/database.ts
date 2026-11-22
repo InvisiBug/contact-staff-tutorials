@@ -1,4 +1,4 @@
-import type { Move, Meta, Statuses, Families, Rating } from "@/lib/types";
+import type { Move, Meta } from "@/lib/types";
 
 const markdownFiles = import.meta.glob("/src/Staff Database/**/*.md", {
   query: "?raw",
@@ -63,9 +63,10 @@ const getText = (markdown: string): string =>
     .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
     .trim();
 
-const getMarkdownMeta = (markdown: string): Record<string, string> => {
-  const properties: Record<string, string> = {};
+const getMarkdownMeta = (markdown: string): Meta => {
+  const properties = {} as Meta;
   const lines = markdown.split(/\r?\n/);
+
   const frontmatterStart = lines.indexOf("---");
 
   if (frontmatterStart !== -1) {
@@ -75,42 +76,21 @@ const getMarkdownMeta = (markdown: string): Record<string, string> => {
       }
 
       const property = line.match(/^([^:]+):\s*(.*)$/);
-
       if (property) {
-        properties[property[1].trim()] = property[2].trim();
+        const key = property[1].trim().toLowerCase();
+        const value = property[2].trim().toLowerCase();
+        const values = value
+          .split(",")
+          .map((item) => item.trim())
+          .filter(Boolean);
+
+        properties[key] = values.length > 1 ? values : [value];
       }
     }
 
+    console.log("🚀 ~ getMarkdownMeta ~ properties:", properties);
     return properties;
   }
-
-  let readingProperties = false;
-  let hasReadProperty = false;
-
-  for (const line of lines) {
-    if (line.startsWith("# ")) {
-      readingProperties = true;
-      continue;
-    }
-
-    if (!readingProperties) {
-      continue;
-    }
-
-    if (!line.trim() && !hasReadProperty) {
-      continue;
-    }
-
-    const property = line.match(/^([^:]+):\s*(.*)$/);
-
-    if (!property) {
-      break;
-    }
-
-    properties[property[1].trim()] = property[2].trim();
-    hasReadProperty = true;
-  }
-
   return properties;
 };
 
@@ -120,25 +100,13 @@ const countRating = (value: string | undefined, character: string): Meta["need"]
   return Math.min(5, Math.max(1, count)) as Meta["need"];
 };
 
-const getMeta = (metadata: Record<string, string>): Meta => ({
-  id: metadata.id,
-  status: (metadata.status || "Next") as Meta["status"],
-  family: (metadata.family || "Other") as Meta["family"],
-  category: (metadata.category || "Move") as Meta["category"],
-  need: countRating(metadata.need, "⭐"),
-  difficulty: countRating(metadata.difficulty, "💀"),
-  ingest: /^yes$/i.test(metadata.ingest ?? ""),
-  propType: (metadata.propType || "Contact") as Meta["propType"],
-  where: metadata["Where was it first learned"] ?? "",
-});
-
 export const staffDatabase: Move[] = Object.entries(markdownFiles).map(([path, markdown]) => {
   const metadata = getMarkdownMeta(markdown);
 
   return {
     name: getMarkdownName(markdown, getFileName(getRelativePath(path))),
-    id: metadata.id ?? getRelativePath(path),
-    meta: getMeta(metadata),
+    // meta: getMeta(metadata),
+    meta: metadata,
     gif: getMediaUrls(markdown, path),
     text: getText(markdown),
   };

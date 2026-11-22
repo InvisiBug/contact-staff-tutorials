@@ -1,6 +1,6 @@
 export type Theme = "light" | "dark";
 
-export type Families =
+export type Family =
   | "Acro"
   | "Angel"
   | "Arms"
@@ -36,28 +36,21 @@ export interface LightboxImage {
 
 export type Meta = {
   status: Statuses;
-  id: string;
-  family: Families;
+  family: [Family];
   category: Category;
-  need: Rating;
-  difficulty: Rating;
+  need: number;
+  difficulty: number;
   ingest: boolean;
-  propType: PropType;
+  propType: string;
   where: string;
+  id: string;
 };
 
 export type Move = {
   name: string;
-  id: string;
   meta: Meta;
   gif: string[];
   text: string;
 };
 
-type metaProperties = "Name" | "Status" | "Family" | "Category" | "Need" | "Difficulty" | "Ingest" | "Type" | "Where";
-
-export type Statuses = "Next" | "Learning" | "Training" | "Learned";
-
-export type Rating = 1 | 2 | 3 | 4 | 5;
-
-export type PropType = "Contact" | "Doubles";
+type Statuses = "Next" | "Learning" | "Training" | "Learned";

@@ -12,3 +12,4 @@ export * from "./icons";
 
 //? Project Cards
 export { default as MoveCard } from "./cards/move";
+export { default as MovesTopBar } from "./movesTopBar";

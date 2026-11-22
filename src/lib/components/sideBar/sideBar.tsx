@@ -1,9 +1,9 @@
-import { useState, type FC } from "react";
-import type { Meta } from "@/lib/types";
+import type { FC } from "react";
 import { useMovesContext } from "@/lib/context";
+import type { Meta } from "@/lib/types";
 import SideBarDropdown from "./components/dropdown";
 
-type MoveFilterKey = Exclude<keyof Meta, "id">;
+import type { MoveFilterKey } from "@/lib/context/movesContext/useMovesContext";
 
 interface SideBarProps {
   title?: string;
@@ -11,16 +11,14 @@ interface SideBarProps {
   className?: string;
 }
 
-const metaKeys = ["status", "family", "category", "need", "difficulty", "ingest", "propType", "where"] as const satisfies readonly MoveFilterKey[];
+const metaKeys = ["family", "category", "need", "difficulty", "ingest", "propType", "where"] as const satisfies readonly MoveFilterKey[];
 
-const getFilterLabel = (key: MoveFilterKey): string =>
-  key.replace(/([A-Z])/g, " $1").replace(/^./, (character) => character.toUpperCase());
+const getFilterLabel = (key: MoveFilterKey): string => key.replace(/([A-Z])/g, " $1").replace(/^./, (character) => character.toUpperCase());
 
 const getFilterValue = (value: string | number | boolean): string => (typeof value === "boolean" ? (value ? "Yes" : "No") : String(value));
 
 const SideBar: FC<SideBarProps> = ({ title, label = "Sidebar", className = "" }) => {
-  const { staffDatabase } = useMovesContext();
-  const [selectedFilters, setSelectedFilters] = useState<Partial<Record<MoveFilterKey, string[]>>>({});
+  const { staffDatabase, filters, setFilters } = useMovesContext();
 
   const filterOptions = (key: MoveFilterKey) => {
     const values = staffDatabase.flatMap((move) => {
@@ -32,7 +30,7 @@ const SideBar: FC<SideBarProps> = ({ title, label = "Sidebar", className = "" })
   };
 
   const toggleFilter = (key: MoveFilterKey, value: string) => {
-    setSelectedFilters((current) => {
+    setFilters((current) => {
       const selectedValues = current[key] ?? [];
       const nextValues = selectedValues.includes(value) ? selectedValues.filter((selectedValue) => selectedValue !== value) : [...selectedValues, value];
 
@@ -45,7 +43,7 @@ const SideBar: FC<SideBarProps> = ({ title, label = "Sidebar", className = "" })
       {title && <h2 className="m-0 mb-4 text-lg font-semibold">{title}</h2>}
       <div className="grid gap-4">
         {metaKeys.map((key) => (
-          <SideBarDropdown key={key} label={getFilterLabel(key)} options={filterOptions(key)} selectedValues={selectedFilters[key] ?? []} onToggle={(value) => toggleFilter(key, value)} />
+          <SideBarDropdown key={key} label={getFilterLabel(key)} options={filterOptions(key)} selectedValues={filters[key] ?? []} onToggle={(value) => toggleFilter(key, value)} />
         ))}
       </div>
     </aside>

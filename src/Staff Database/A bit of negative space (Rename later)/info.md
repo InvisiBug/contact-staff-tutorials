@@ -1,8 +1,8 @@
 # A bit of negative space (Rename later)
 
 ---
-status: Up next
-family: Arms, Fishtail, Neck
+status: next
+family: arms, fishtail, neck
 category: Transfer
 difficulty: 2
 Date: September 24, 2026

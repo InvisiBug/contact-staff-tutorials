@@ -1,5 +1,8 @@
 import { createContext, useContext as useReactContext, type Dispatch, type SetStateAction } from "react";
-import type { Entry, Theme } from "@/lib/types";
+import type { Entry, Meta, Theme } from "@/lib/types";
+
+export type MoveFilterKey = Exclude<keyof Meta, "id">;
+export type MoveFilters = Partial<Record<MoveFilterKey, string[]>>;
 
 export const MovesContext = createContext<MovesContext | null>(null);
 
@@ -17,4 +20,6 @@ interface MovesContext {
   theme: Theme;
   setTheme: Dispatch<SetStateAction<Theme>>;
   staffDatabase: Entry[];
+  filters: MoveFilters;
+  setFilters: Dispatch<SetStateAction<MoveFilters>>;
 }

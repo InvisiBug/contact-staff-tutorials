@@ -5,7 +5,7 @@ status: Learned
 family: Fishtail
 need: 2
 difficulty: 3
-mastery: 🌟🌟
+mastery: 2
 ingest: No
 propType: Contact
 id: cf05963fc2174007ba53dd549dfa1159
