@@ -22,7 +22,6 @@ httpRoute:
   name: contactstafftutorials
   gatewayName: kavanetes-gateway
   gatewayNamespace: nginx-gateway
-  gatewaySectionName: contactstafftutorials-https
   host: contactstafftutorials.com
   path: /
   serviceName: contactstafftutorials
