@@ -1,10 +1,10 @@
 services:
-  kavanet-io:
-    image: kavanet-io
+  contact-staff-tutorials:
+    image: contact-staff-tutorials
     build:
       context: .
       dockerfile: ./Dockerfile.argo.live
     # environment:
-      # NODE_ENV: production
+    # NODE_ENV: production
     ports:
       - 3000:80

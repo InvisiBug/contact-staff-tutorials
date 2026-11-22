@@ -7,8 +7,8 @@ interface MovesTopBarProps {
 }
 
 const MovesTopBar: FC<MovesTopBarProps> = ({ moveCount }) => {
-  const { staffDatabase, filters, setFilters } = useMovesContext();
-  const statusOptions = [...new Set(staffDatabase.map((move) => move.meta.status))].sort().map((status) => ({ label: status, value: status }));
+  const { moves, filters, setFilters } = useMovesContext();
+  const statusOptions = [...new Set(moves.map((move) => move.meta.status))].sort().map((status) => ({ label: status, value: status }));
 
   const toggleStatus = (value: string) => {
     setFilters((current) => {

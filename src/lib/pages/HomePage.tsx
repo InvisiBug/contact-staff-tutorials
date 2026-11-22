@@ -21,8 +21,8 @@ const moveMatchesFilters = (move: Move, filters: Partial<Record<MoveFilterKey, s
   });
 
 const HomePage = () => {
-  const { staffDatabase, filters } = useMovesContext();
-  const visibleMoves = useMemo(() => staffDatabase.filter((move) => moveMatchesFilters(move, filters)), [filters, staffDatabase]);
+  const { moves, filters } = useMovesContext();
+  const visibleMoves = useMemo(() => moves.filter((move) => moveMatchesFilters(move, filters)), [filters, moves]);
 
   return (
     <div className="mx-auto grid items-start gap-0 lg:grid-cols-[16rem_minmax(0,1fr)]">

@@ -15,13 +15,19 @@ const metaKeys = ["family", "category", "need", "difficulty", "ingest", "propTyp
 
 const getFilterLabel = (key: MoveFilterKey): string => key.replace(/([A-Z])/g, " $1").replace(/^./, (character) => character.toUpperCase());
 
-const getFilterValue = (value: string | number | boolean): string => (typeof value === "boolean" ? (value ? "Yes" : "No") : String(value));
+const getFilterValue = (value: string | number | boolean | readonly unknown[]): string => {
+  if (Array.isArray(value)) {
+    return value.join(", ");
+  }
+
+  return typeof value === "boolean" ? (value ? "Yes" : "No") : String(value);
+};
 
 const SideBar: FC<SideBarProps> = ({ title, label = "Sidebar", className = "" }) => {
-  const { staffDatabase, filters, setFilters } = useMovesContext();
+  const { moves, filters, setFilters } = useMovesContext();
 
   const filterOptions = (key: MoveFilterKey) => {
-    const values = staffDatabase.flatMap((move) => {
+    const values = moves.flatMap((move) => {
       const value = getFilterValue(move.meta[key]);
       return key === "family" || key === "category" ? value.split(",").map((item) => item.trim()) : [value];
     });
