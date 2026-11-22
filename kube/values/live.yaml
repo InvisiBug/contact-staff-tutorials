@@ -2,7 +2,7 @@ name: contact-staff-tutorials
 
 namespace: contact-staff-tutorials
 env:
-  APP_VERSION: 9ed1dc0db7e1d508498a6658e5a8b44ba6305d06
+  APP_VERSION: 9528f7a26a6543cde303e6ab48bb81ea705c343f
 
 deployment:
   - name: contact-staff-tutorials
