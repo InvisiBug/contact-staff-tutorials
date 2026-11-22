@@ -1,3 +1,4 @@
+{{- if and .Values.httpRoute .Values.service .Values.service.name }}
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
@@ -7,9 +8,6 @@ spec:
   parentRefs:
     - name: {{ .Values.httpRoute.gatewayName }}
       namespace: {{ .Values.httpRoute.gatewayNamespace }}
-      {{ with .Values.httpRoute.gatewaySectionName }}
-      sectionName: {{ . }}
-      {{ end }}
   hostnames:
     - {{ .Values.httpRoute.host | quote }}
   rules:
@@ -20,3 +18,4 @@ spec:
       backendRefs:
         - name: {{ .Values.httpRoute.serviceName }}
           port: {{ .Values.httpRoute.servicePort }}
+{{- end }}
