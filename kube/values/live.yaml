@@ -2,7 +2,7 @@ name: contact-staff-tutorials
 
 namespace: contact-staff-tutorials
 env:
-  APP_VERSION: 9ed1dc0db7e1d508498a6658e5a8b44ba6305d06
+  APP_VERSION: 9528f7a26a6543cde303e6ab48bb81ea705c343f
 
 deployment:
   - name: contact-staff-tutorials
@@ -12,15 +12,30 @@ deployment:
     # env:
     # Handled in Dockerfile.live
 
-ingress:
-  - name: contact-staff-tutorials
-    selector: contact-staff-tutorials
-    path: /
-    port: 80
-    host: kavanet.io
-
 service:
-  loadBalancer:
-    - name: contact-staff-tutorials
-      selector: contact-staff-tutorials
-      port: 80
+  name: contactstafftutorials
+  selector: contactstafftutorials
+  port: 80
+  targetPort: 80
+
+httpRoute:
+  name: contactstafftutorials
+  gatewayName: kavanetes-gateway
+  gatewayNamespace: nginx-gateway
+  host: contactstafftutorials.com
+  path: /
+  serviceName: contactstafftutorials
+  servicePort: 80
+
+# service:
+#   loadBalancer:
+#     - name: contact-staff-tutorials
+#       selector: contact-staff-tutorials
+#       port: 80
+
+# ingress:
+#   - name: contact-staff-tutorials
+#     selector: contact-staff-tutorials
+#     path: /
+#     port: 80
+#     host: kavanet.io
