@@ -9,7 +9,7 @@ spec:
       namespace: {{ .Values.httpRoute.gatewayNamespace }}
       {{ with .Values.httpRoute.gatewaySectionName }}
       sectionName: {{ . }}
-      {{- end }}
+      {{ end }}
   hostnames:
     - {{ .Values.httpRoute.host | quote }}
   rules:
