@@ -7,6 +7,7 @@ export { default as NavBar } from "./navBar";
 export { default as ScrollToTop } from "./scrollToTop";
 export { default as SideBar } from "./sideBar/sideBar";
 export * from "./icons";
+export * from "./indicators";
 
 //? Simulations
 
