@@ -49,7 +49,7 @@ const SideBar: FC<SideBarProps> = ({ title, label = "Sidebar", className = "" })
       {title && <h2 className="m-0 mb-4 text-lg font-semibold">{title}</h2>}
       <div className="grid gap-4">
         {metaKeys.map((key) => (
-          <SideBarDropdown key={key} label={getFilterLabel(key)} options={filterOptions(key)} selectedValues={filters[key] ?? []} onToggle={(value) => toggleFilter(key, value)} />
+          <SideBarDropdown overlay key={key} label={getFilterLabel(key)} options={filterOptions(key)} selectedValues={filters[key] ?? []} onToggle={(value) => toggleFilter(key, value)} />
         ))}
       </div>
     </aside>

@@ -1,11 +1,11 @@
 import type { FC } from "react";
 
-const SideBarDropdown: FC<SideBarDropdownProps> = ({ label, options, selectedValues, onToggle }) => {
+const SideBarDropdown: FC<SideBarDropdownProps> = ({ label, options, selectedValues, onToggle, overlay = false }) => {
   return (
-    <details className="w-full rounded-md border border-(--line) bg-(--surface)">
+    <details className={`w-full rounded-md border border-(--line) bg-(--surface) ${overlay ? "relative" : ""}`}>
       <summary className="cursor-pointer list-none px-3 py-2 text-sm font-medium [&::-webkit-details-marker]:hidden">{label}</summary>
 
-      <div className="grid gap-1 border-t border-(--line) p-2">
+      <div className={`grid gap-1 border-t border-(--line) p-2 ${overlay ? "absolute left-0 top-full z-50 min-w-full bg-(--surface) shadow-lg" : ""}`}>
         {options.map((option) => {
           const isSelected = selectedValues.includes(option.value);
 
@@ -32,6 +32,7 @@ interface SideBarDropdownProps {
   options: SideBarDropdownOption[];
   selectedValues: string[];
   onToggle: (value: string) => void;
+  overlay?: boolean;
 }
 
 export interface SideBarDropdownOption {

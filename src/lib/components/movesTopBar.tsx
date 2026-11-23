@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { useMovesContext } from "@/lib/context";
+import { META_PROPERTIES, useMovesContext, type MetaProperty } from "@/lib/context";
 import SideBarDropdown from "./sideBar/components/dropdown";
 
 interface MovesTopBarProps {
@@ -7,8 +7,12 @@ interface MovesTopBarProps {
 }
 
 const MovesTopBar: FC<MovesTopBarProps> = ({ moveCount }) => {
-  const { moves, filters, setFilters, showUserData, setShowUserData } = useMovesContext();
+  const { moves, filters, setFilters, visibleProperties, toggleProperty, showUserData, setShowUserData } = useMovesContext();
   const statusOptions = [...new Set(moves.map((move) => move.meta.status))].sort().map((status) => ({ label: status, value: status }));
+  const propertyOptions = META_PROPERTIES.map((property) => ({
+    label: property.replace(/([A-Z])/g, " $1").replace(/^./, (character) => character.toUpperCase()),
+    value: property,
+  }));
 
   const toggleStatus = (value: string) => {
     setFilters((current) => {
@@ -22,7 +26,8 @@ const MovesTopBar: FC<MovesTopBarProps> = ({ moveCount }) => {
   return (
     <header className="sticky top-0 z-20 mb-6 flex items-center justify-between border-b border-(--line) bg-(--surface) px-4 py-4">
       <div className="flex items-center gap-4">
-        <SideBarDropdown label="Status" options={statusOptions} selectedValues={filters.status ?? []} onToggle={toggleStatus} />
+        <SideBarDropdown overlay label="Status" options={statusOptions} selectedValues={filters.status ?? []} onToggle={toggleStatus} />
+        <SideBarDropdown overlay label="Properties" options={propertyOptions} selectedValues={visibleProperties} onToggle={(property) => toggleProperty(property as MetaProperty)} />
         <button
           type="button"
           aria-pressed={showUserData}

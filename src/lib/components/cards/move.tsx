@@ -16,7 +16,7 @@ const formatMetaValue = (value: unknown): string => {
 };
 
 const MoveCard: FC<MoveCardProps> = ({ move }) => {
-  const { showUserData } = useMovesContext();
+  const { showUserData, visibleProperties } = useMovesContext();
 
   const enrichedMove: Move = {
     ...move,
@@ -44,6 +44,7 @@ const MoveCard: FC<MoveCardProps> = ({ move }) => {
         <dl className="m-0 grid gap-0 text-sm">
           {Object.entries(displayedMove.meta)
             .filter(([property]) => property !== "id")
+            .filter(([property]) => visibleProperties.includes(property as (typeof visibleProperties)[number]))
             .map(([property, value]) => {
               const isOverridden = showUserData && Object.prototype.hasOwnProperty.call(move.userData ?? {}, property);
 
