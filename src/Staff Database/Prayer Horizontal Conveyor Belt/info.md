@@ -4,9 +4,9 @@
 Status: Learned
 Family: Conveyor, Neck
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 4
 Date: September 24, 2026
 Ingest: No
 Staff Type: Contact

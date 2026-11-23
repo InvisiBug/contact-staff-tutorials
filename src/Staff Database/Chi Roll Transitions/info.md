@@ -2,7 +2,7 @@
 
 ---
 Status: Cool stuff
-How badly do I need it: ⭐⭐
+How badly do I need it: 2
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Dragon

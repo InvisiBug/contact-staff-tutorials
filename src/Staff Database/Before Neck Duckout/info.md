@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Neck
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 4
 Extra notes: Video shows before and after neck duckouts
 Improvement notes: Best to wait till its inline with your neck
 Ingest: No

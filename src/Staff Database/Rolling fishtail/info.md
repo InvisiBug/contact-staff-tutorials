@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Fishtail
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 2
+Difficulty: 2
+Mastery: 4
 Ingest: No
 Staff Type: Dragon
 id: 042914ba582844cb85b99ef8ab60bfa9

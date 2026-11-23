@@ -4,8 +4,8 @@
 Status: Learning
 Family: Steve
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 3
+Difficulty: 5
 Needs Media: Needs GIF
 Date: July 22, 2025
 Ingest: No

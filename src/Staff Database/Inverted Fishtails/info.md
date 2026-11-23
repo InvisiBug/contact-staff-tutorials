@@ -4,9 +4,9 @@
 Status: Learned
 Family: Fishtail
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 2
+Mastery: 5
 Needs Media: Needs GIF
 Date: August 31, 2023
 Ingest: No

@@ -4,9 +4,9 @@
 Status: Training
 Family: Fishtail
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 4
+Mastery: 4
 Improvement notes: Needs to end on a vertical steve not an angel roll
 Ingest: No
 Staff Type: Contact

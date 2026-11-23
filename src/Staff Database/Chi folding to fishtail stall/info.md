@@ -4,9 +4,9 @@
 Status: Training
 Family: Arms, Chi Folds, Fishtail
 Category: Combo
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 2
+Mastery: 4
 Drill reps: Chi Folds
 Ingest: No
 Staff Type: Contact

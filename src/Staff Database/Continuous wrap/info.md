@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Elbow
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 2
+Difficulty: 2
 Extra notes: Useful for training SNES exit
 Needs Media: Needs GIF
 Ingest: No

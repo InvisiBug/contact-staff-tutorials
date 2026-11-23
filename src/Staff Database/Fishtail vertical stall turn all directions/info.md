@@ -4,9 +4,9 @@
 Status: Learning
 Family: Fishtail
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 4
+Mastery: 3
 Drill reps: Foundation
 Ingest: No
 Me: Me

@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Neck
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 4
 Unlocks: Throat Wrap (Throat%20Wrap%2057c89f1f2ad64882b611d87a7c995a6d.md)
 Ingest: No
 Staff Type: Contact

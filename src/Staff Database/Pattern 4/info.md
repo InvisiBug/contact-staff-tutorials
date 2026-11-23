@@ -4,8 +4,8 @@
 Status: Learning
 Family: Geometric Patterns
 Category: Combo
-How badly do I need it: ⭐⭐
-Difficulty: 💀
+How badly do I need it: 2
+Difficulty: 1
 Date: August 16, 2026
 Ingest: No
 Staff Type: Doubles

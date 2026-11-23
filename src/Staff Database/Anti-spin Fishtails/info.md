@@ -3,8 +3,8 @@
 ---
 Status: Learning
 Family: Fishtail
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 5
+Difficulty: 4
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP

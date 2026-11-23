@@ -4,9 +4,9 @@
 Status: Training
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 id: 7324dda1a0e449b690f20b46222bb1c7

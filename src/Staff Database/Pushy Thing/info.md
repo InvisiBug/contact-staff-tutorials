@@ -4,8 +4,8 @@
 Status: Learning
 Family: Angel
 Category: Combo
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 2
+Difficulty: 5
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta

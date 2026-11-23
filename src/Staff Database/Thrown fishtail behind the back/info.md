@@ -4,9 +4,9 @@
 Status: Learned
 Family: Fishtail
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 4
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta

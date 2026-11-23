@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Neck
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 1
+Mastery: 4
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

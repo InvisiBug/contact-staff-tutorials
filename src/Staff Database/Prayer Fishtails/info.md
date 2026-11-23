@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Fishtail
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 1
+Mastery: 5
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP

@@ -4,9 +4,9 @@
 Status: Learning
 Family: Fishtail
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 1
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

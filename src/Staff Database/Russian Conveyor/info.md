@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Conveyor
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 2
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP

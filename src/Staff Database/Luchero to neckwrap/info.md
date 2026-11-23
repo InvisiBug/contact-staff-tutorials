@@ -4,8 +4,8 @@
 Status: Learning
 Family: SNES
 Category: Transfer
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 3
+Difficulty: 5
 Date: July 22, 2025
 Ingest: No
 Staff Type: Contact

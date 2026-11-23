@@ -4,9 +4,9 @@
 Status: Learning
 Family: Angel
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 2
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta

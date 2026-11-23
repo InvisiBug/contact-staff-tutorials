@@ -4,8 +4,8 @@
 Status: Up next
 Family: Arms, SNES, Steve
 Category: Move
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 2
+Difficulty: 4
 Needs Media: Needs GIF
 Date: September 24, 2026
 Ingest: No

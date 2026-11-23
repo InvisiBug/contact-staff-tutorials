@@ -3,7 +3,7 @@
 ---
 Status: Up next
 Family: Arms
-Difficulty: 💀💀💀
+Difficulty: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: La Papet 2025

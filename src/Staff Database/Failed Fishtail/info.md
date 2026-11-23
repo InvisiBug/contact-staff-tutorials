@@ -3,8 +3,8 @@
 ---
 Status: Learned
 Family: Fishtail
-How badly do I need it: ⭐⭐
-Difficulty: 💀
+How badly do I need it: 2
+Difficulty: 1
 Ingest: No
 Staff Type: Contact
 id: eb31652cb6f14e9c9b7743b25c8c08e7

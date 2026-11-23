@@ -4,8 +4,8 @@
 Status: Cool stuff
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 3
+Difficulty: 5
 Ingest: No
 Staff Type: Contact
 id: 304942f8f6fb443398526f1a6d1c3856

@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Matrix
-How badly do I need it: ⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 1
+Difficulty: 5
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

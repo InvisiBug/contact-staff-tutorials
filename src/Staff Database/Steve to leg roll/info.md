@@ -3,8 +3,8 @@
 ---
 Status: Up next
 Family: Body Roll
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀
+How badly do I need it: 2
+Difficulty: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Youtube

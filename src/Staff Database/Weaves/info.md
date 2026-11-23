@@ -2,7 +2,7 @@
 
 ---
 Status: Cool stuff
-How badly do I need it: ⭐⭐⭐⭐
+How badly do I need it: 4
 Ingest: No
 Staff Type: Dragon
 id: b689fcb581eb4cb1a44e2122b7118c84

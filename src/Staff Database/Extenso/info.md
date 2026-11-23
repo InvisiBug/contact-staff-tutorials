@@ -4,9 +4,9 @@
 Status: Up next
 Family: Angel, Arms
 Category: Move
-How badly do I need it: ⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 1
+Difficulty: 1
+Mastery: 3
 Date: August 31, 2026
 Ingest: No
 Staff Type: Contact

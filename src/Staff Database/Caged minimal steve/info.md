@@ -4,9 +4,9 @@
 Status: Training
 Family: Steve
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 3
 Improvement notes: Keep hands together to make a circle out of arms
 Ingest: No
 Staff Type: Contact

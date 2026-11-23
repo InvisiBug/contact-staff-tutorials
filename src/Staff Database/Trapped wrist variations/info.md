@@ -3,7 +3,7 @@
 ---
 Status: Up next
 Family: Fishtail
-How badly do I need it: ⭐⭐
+How badly do I need it: 2
 Ingest: No
 Staff Type: Contact
 id: 9cccf36e98ec43ee977f08a05965fef1

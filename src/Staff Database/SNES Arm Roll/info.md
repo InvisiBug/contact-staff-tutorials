@@ -4,9 +4,9 @@
 Status: Learning
 Family: SNES
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 2
 Date: September 24, 2026
 Ingest: No
 Staff Type: Contact

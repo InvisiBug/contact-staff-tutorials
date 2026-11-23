@@ -4,9 +4,9 @@
 Status: Learned
 Family: Conveyor, Fishtail
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 1
+Mastery: 4
 Ingest: No
 Me: Me
 Staff Type: Contact

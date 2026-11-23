@@ -4,9 +4,9 @@
 Status: Learned
 Family: SNES
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 4
 Extra notes: Builds up to continuous 
 Ingest: No
 Me: Me

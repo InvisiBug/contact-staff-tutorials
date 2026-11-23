@@ -2,11 +2,11 @@
 
 ---
 Status: Learned
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 2
+Mastery: 3
 Extra notes: Need to master left handed
-Drill reps: ⭐
+Drill reps: 1
 Ingest: No
 Staff Type: Dragon
 id: f31a54f76e324cb79879e1b6426906d9

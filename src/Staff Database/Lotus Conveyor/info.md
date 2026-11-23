@@ -4,9 +4,9 @@
 Status: Learned
 Family: Conveyor
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 2
+Mastery: 4
 Unlocks: Chi fold with Lotus Conveyor (Chi%20fold%20with%20Lotus%20Conveyor%203cd6b010191f809f9758f89534e3e630.md)
 Drill reps: Foundation
 Date: August 31, 2026

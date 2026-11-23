@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Neck
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 1
+Mastery: 3
 Unlocks: Neckwrap 360 (Neckwrap%20360%200cb274150754456a89ebe2c04abac939.md), Chest Spins (Chest%20Spins%2059c85424b5dd4afd8f1a1ab9a773ebfc.md)
 Ingest: No
 Staff Type: Contact
@@ -19,4 +19,4 @@ The throat wrap, the other side of the neck wrap.
 
 [Throat Wrap - Contact Staff Tutorial - MCP](https://youtu.be/EU706TJTxFg)
 
-⭐
+1

@@ -4,9 +4,9 @@
 Status: Learning
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 4
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP, Summer Tour 2026

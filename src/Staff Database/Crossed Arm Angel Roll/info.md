@@ -3,8 +3,8 @@
 ---
 Status: Learning
 Family: Angel
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 2
+Difficulty: 4
 Ingest: No
 Staff Type: Contact
 Where was it first learned: La Papet 2024

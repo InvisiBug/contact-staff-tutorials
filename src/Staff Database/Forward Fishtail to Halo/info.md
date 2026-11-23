@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Fishtail
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 2
+Mastery: 4
 Unlocks: Forward fishtails (Forward%20fishtails%205453ad847ea2448983bc5992db20a500.md)
 Ingest: No
 Staff Type: Contact

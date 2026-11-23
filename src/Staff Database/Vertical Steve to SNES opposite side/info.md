@@ -4,9 +4,9 @@
 Status: Learned
 Family: Neck, SNES
 Category: Foundation
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 5
+Mastery: 3
 Extra notes: Right to left
 Ingest: No
 Staff Type: Contact

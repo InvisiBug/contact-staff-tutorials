@@ -4,9 +4,9 @@
 Status: Learned
 Family: Fishtail
 Category: Fundamental
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 4
 Unlocks: Forward Fishtail to Halo (Forward%20Fishtail%20to%20Halo%207decd1084b374da0b6627aa93ae37cfa.md)
 Ingest: No
 Staff Type: Contact

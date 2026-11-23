@@ -3,9 +3,9 @@
 ---
 Status: Learning
 Family: Steve
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 2
 Ingest: No
 Staff Type: Contact
 Where was it first learned: London Jordan Trip

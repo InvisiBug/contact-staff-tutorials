@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Angel, Fishtail
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 4
 Ingest: No
 Staff Type: Contact
 id: 809a4b6f13ce4ccfae3227efd73883b6

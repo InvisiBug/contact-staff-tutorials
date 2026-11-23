@@ -4,9 +4,9 @@
 Status: Learned
 Family: Neck
 Category: Combo
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 1
+Mastery: 5
 Ingest: No
 Staff Type: Contact
 id: d9cb40394bcb4036addbb0382a176dc9

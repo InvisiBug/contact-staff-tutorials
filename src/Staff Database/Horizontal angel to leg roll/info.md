@@ -3,10 +3,10 @@
 ---
 Status: Up next
 Family: Body Roll
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 2
+Difficulty: 2
 Needs Media: Needs GIF
-Drill reps: ⭐
+Drill reps: 1
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Youtube

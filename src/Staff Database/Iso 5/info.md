@@ -3,9 +3,9 @@
 ---
 Status: Learning
 Family: Isolations
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Drill reps: ⭐
+How badly do I need it: 3
+Difficulty: 3
+Drill reps: 1
 Date: May 11, 2026
 Ingest: No
 Staff Type: Doubles

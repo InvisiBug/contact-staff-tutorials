@@ -4,9 +4,9 @@
 Status: Learning
 Family: Arms, Chi Folds
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 4
 Unlocks: Lotus Conveyor (Lotus%20Conveyor%203e56b010191f800bb7aff2ce6260cb4e.md)
 Drill reps: Chi Folds
 Date: September 24, 2026

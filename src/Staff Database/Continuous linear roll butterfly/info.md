@@ -3,7 +3,7 @@
 ---
 Status: Up next
 Family: Arms, Linears
-Difficulty: 💀💀💀
+Difficulty: 3
 Drill reps: 🆕
 Ingest: No
 Me: Me

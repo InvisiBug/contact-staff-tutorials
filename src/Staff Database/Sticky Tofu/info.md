@@ -4,9 +4,9 @@
 Status: Learning
 Family: Conveyor
 Category: Combo
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 2
+Difficulty: 3
+Mastery: 3
 Date: May 19, 2026
 Ingest: No
 Staff Type: Contact

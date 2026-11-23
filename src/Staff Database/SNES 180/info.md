@@ -3,9 +3,9 @@
 ---
 Status: Training
 Family: SNES
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 4
+Mastery: 4
 Improvement notes: Break into long and short
 Drill reps: Foundation
 Ingest: No

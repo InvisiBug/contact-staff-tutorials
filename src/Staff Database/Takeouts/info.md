@@ -3,9 +3,9 @@
 ---
 Status: Learning
 Family: Angel
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 1
 Ingest: No
 Staff Type: Contact
 id: 10ba2acf3f6e4e5a98d1ebb0dbfb4d22

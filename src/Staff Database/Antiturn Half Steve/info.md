@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Steve
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 3
+Difficulty: 5
 Ingest: No
 Staff Type: Contact
 id: 80b4b2468f344b1c91c4936b298eae63

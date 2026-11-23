@@ -4,8 +4,8 @@
 Status: Up next
 Family: Neck
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 3
+Difficulty: 4
 Extra notes: Need to add all the others
 Ingest: No
 Staff Type: Contact

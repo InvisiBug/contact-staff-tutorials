@@ -4,9 +4,9 @@
 Status: Learned
 Family: Angel, Halo
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta

@@ -4,10 +4,10 @@
 Status: Learning
 Family: Angel
 Category: Combo
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
-Drill reps: ⭐
+How badly do I need it: 3
+Difficulty: 4
+Mastery: 1
+Drill reps: 1
 Date: August 31, 2026
 Ingest: No
 Staff Type: Contact

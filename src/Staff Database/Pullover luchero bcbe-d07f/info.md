@@ -4,9 +4,9 @@
 Status: Up next
 Family: Lucero
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 2
 Extra notes: Good for training luchero on the spot
 Ingest: No
 Staff Type: Contact

@@ -4,9 +4,9 @@
 Status: Learned
 Family: Angel
 Category: Move
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 4
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: EJC 2025, Insta

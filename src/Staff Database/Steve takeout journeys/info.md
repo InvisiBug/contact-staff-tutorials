@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Steve
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
+How badly do I need it: 4
+Difficulty: 3
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

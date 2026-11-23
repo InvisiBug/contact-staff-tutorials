@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Arms
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 2
+Mastery: 3
 Extra notes: Need to learn violinning
 Ingest: No
 Staff Type: Contact

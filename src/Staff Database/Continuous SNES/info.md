@@ -3,8 +3,8 @@
 ---
 Status: Learning
 Family: SNES
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 2
+Difficulty: 5
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

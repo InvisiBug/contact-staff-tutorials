@@ -3,8 +3,8 @@
 ---
 Status: Up next
 Family: Elbow
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 4
+Difficulty: 4
 Extra notes: Similar to BTB steve but uses elbow instead of wrist
 Ingest: No
 Staff Type: Contact

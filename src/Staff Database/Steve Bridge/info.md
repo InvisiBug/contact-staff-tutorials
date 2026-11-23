@@ -4,9 +4,9 @@
 Status: Learning
 Family: Steve
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
+How badly do I need it: 3
+Difficulty: 4
+Mastery: 1
 Date: July 22, 2025
 Ingest: No
 Staff Type: Contact

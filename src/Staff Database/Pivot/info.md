@@ -3,8 +3,8 @@
 ---
 Status: Learned
 Family: Conveyor
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 4
+Difficulty: 2
 Extra notes: Dependant on left handed halos
 Ingest: No
 Staff Type: Contact

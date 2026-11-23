@@ -3,8 +3,8 @@
 ---
 Status: Learning
 Family: Steve
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 2
+Difficulty: 4
 Extra notes: Like the forearm roll but up to the neck
 Ingest: No
 Staff Type: Contact

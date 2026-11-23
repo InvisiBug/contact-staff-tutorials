@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Neck
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 4
+Difficulty: 2
 Ingest: No
 Staff Type: Contact
 id: 46b16b200b6e442f86c3f46a831721eb

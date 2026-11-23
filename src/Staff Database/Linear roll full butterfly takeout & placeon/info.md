@@ -4,7 +4,7 @@
 Status: Up next
 Family: Arms, Linears
 Category: Move
-Difficulty: 💀💀💀
+Difficulty: 3
 Drill reps: 🆕
 Ingest: No
 Me: Me

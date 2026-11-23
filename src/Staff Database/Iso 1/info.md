@@ -4,10 +4,10 @@
 Status: Learning
 Family: Isolations
 Category: Foundation
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟
-Drill reps: ⭐
+How badly do I need it: 3
+Difficulty: 2
+Mastery: 1
+Drill reps: 1
 Date: May 11, 2026
 Ingest: No
 Staff Type: Doubles

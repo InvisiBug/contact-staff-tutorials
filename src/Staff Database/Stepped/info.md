@@ -3,9 +3,9 @@
 ---
 Status: Learning
 Family: Steve
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 2
 Extra notes: Think you may be able to go to an underside from this move
 Ingest: No
 Staff Type: Contact

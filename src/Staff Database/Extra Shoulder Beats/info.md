@@ -3,8 +3,8 @@
 ---
 Status: Up next
 Family: Steve
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 3
+Difficulty: 2
 Extra notes: Basically the full arm roll without the arm roll bit
 Ingest: No
 Staff Type: Contact

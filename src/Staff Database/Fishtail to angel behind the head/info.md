@@ -4,9 +4,9 @@
 Status: Training
 Family: Angel
 Category: Transfer
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 2
 Date: July 22, 2025
 Ingest: No
 Staff Type: Contact

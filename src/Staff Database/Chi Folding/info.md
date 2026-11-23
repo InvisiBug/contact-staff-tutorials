@@ -3,9 +3,9 @@
 ---
 Status: Training
 Family: Arms, Chi Folds
-How badly do I need it: ⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 1
+Difficulty: 4
+Mastery: 4
 Needs Media: Needs GIF
 Drill reps: Chi Folds
 Date: August 8, 2025

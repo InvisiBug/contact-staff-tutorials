@@ -2,8 +2,8 @@
 
 ---
 Status: Learned
-Difficulty: 💀
-Mastery: 🌟🌟🌟🌟
+Difficulty: 1
+Mastery: 4
 Extra notes: Need to learn forwards
 Ingest: No
 Staff Type: Dragon

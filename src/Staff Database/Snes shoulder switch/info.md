@@ -3,8 +3,8 @@
 ---
 Status: Up next
 Family: SNES
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 3
+Difficulty: 5
 Drill reps: 🆕
 Ingest: No
 Staff Type: Contact

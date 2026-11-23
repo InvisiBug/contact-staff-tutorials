@@ -4,9 +4,9 @@
 Status: Up next
 Family: Arms, Linears
 Category: Move
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
+How badly do I need it: 2
+Difficulty: 4
+Mastery: 1
 Drill reps: 🆕
 Ingest: No
 Me: Me

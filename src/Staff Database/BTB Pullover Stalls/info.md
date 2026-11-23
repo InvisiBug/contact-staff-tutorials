@@ -3,7 +3,7 @@
 ---
 Status: Cool stuff
 Family: Fishtail, Stalls
-How badly do I need it: ⭐⭐⭐
+How badly do I need it: 3
 Ingest: No
 Staff Type: Contact
 id: 44f2eddcf6f74c788511deaa313a6b91

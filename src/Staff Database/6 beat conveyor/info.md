@@ -4,9 +4,9 @@
 Status: Up next
 Family: Conveyor
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
+How badly do I need it: 3
+Difficulty: 4
+Mastery: 1
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

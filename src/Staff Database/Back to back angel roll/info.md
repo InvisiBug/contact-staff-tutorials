@@ -4,9 +4,9 @@
 Status: Training
 Family: Angel
 Category: Transfer
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 2
 Extra notes: Back and forth
 Drill reps: Foundation
 Ingest: No

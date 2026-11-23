@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Angel, Halo
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 4
 Extra notes: Needs Angel roll place on same shoulder same hand
 Ingest: No
 Staff Type: Contact

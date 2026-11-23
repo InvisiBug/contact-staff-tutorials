@@ -3,8 +3,8 @@
 ---
 Status: Training
 Family: Fishtail
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 4
+Difficulty: 2
 Ingest: No
 Staff Type: Contact
 id: 6600d7de6b7f4bf8864c36c0035f1b1f

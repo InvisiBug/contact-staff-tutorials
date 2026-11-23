@@ -3,9 +3,9 @@
 ---
 Status: Cool stuff
 Family: Arms
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 2
+Difficulty: 2
+Mastery: 3
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

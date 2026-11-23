@@ -4,9 +4,9 @@
 Status: Learned
 Family: Conveyor
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 2
+Mastery: 4
 Needs Media: Needs GIF
 Date: July 22, 2025
 Ingest: No

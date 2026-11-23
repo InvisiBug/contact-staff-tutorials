@@ -4,9 +4,9 @@
 Status: Learned
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 2
+Difficulty: 4
+Mastery: 3
 Extra notes: Don’t twist your arm
 Ingest: No
 Staff Type: Contact

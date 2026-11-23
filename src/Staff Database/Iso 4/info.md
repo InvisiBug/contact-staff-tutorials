@@ -3,10 +3,10 @@
 ---
 Status: Learning
 Family: Isolations
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀
+How badly do I need it: 3
+Difficulty: 2
 Extra notes: Great for turning
-Drill reps: ⭐
+Drill reps: 1
 Date: May 11, 2026
 Ingest: No
 Staff Type: Doubles

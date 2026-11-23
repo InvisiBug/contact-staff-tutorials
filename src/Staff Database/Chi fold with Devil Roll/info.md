@@ -4,9 +4,9 @@
 Status: Learning
 Family: Arms, Chi Folds
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀💀
-Mastery: 🌟
+How badly do I need it: 4
+Difficulty: 5
+Mastery: 1
 Drill reps: Chi Folds
 Date: August 31, 2026
 Ingest: No

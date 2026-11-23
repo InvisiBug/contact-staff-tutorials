@@ -3,9 +3,9 @@
 ---
 Status: Training
 Family: Angel
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 2
 Ingest: No
 Staff Type: Contact
 id: 7255f05b99f64d25ab0b02426015d767

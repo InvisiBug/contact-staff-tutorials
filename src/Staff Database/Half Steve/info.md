@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Steve
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 5
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP

@@ -4,9 +4,9 @@
 Status: Learned
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟
+How badly do I need it: 2
+Difficulty: 2
+Mastery: 2
 Extra notes: Must make the oop sound
 Ingest: No
 Staff Type: Contact
@@ -18,7 +18,7 @@ id: 4993eaeed998428795e55994b1ed187d
 Super simple, kinda similar to a contact ball move
 
 <aside>
-⭐ Aim to do the transfer on the uphill side of your body
+1 Aim to do the transfer on the uphill side of your body
 
 </aside>
 

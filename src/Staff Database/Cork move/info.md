@@ -3,8 +3,8 @@
 ---
 Status: Cool stuff
 Family: Angel
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀💀
+How badly do I need it: 4
+Difficulty: 5
 Ingest: No
 Staff Type: Contact
 Where was it first learned: MCP

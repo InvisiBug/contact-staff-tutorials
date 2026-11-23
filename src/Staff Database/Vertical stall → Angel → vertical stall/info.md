@@ -4,9 +4,9 @@
 Status: Training
 Family: Angel
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 4
 Improvement notes: Both directions
 Ingest: No
 Staff Type: Contact

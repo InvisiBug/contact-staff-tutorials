@@ -4,10 +4,10 @@
 Status: Learning
 Family: Angel
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟
-Drill reps: ⭐
+How badly do I need it: 3
+Difficulty: 3
+Mastery: 1
+Drill reps: 1
 Date: July 22, 2025
 Ingest: No
 Staff Type: Contact

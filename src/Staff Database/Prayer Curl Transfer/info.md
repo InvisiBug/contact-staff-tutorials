@@ -4,9 +4,9 @@
 Status: Learned
 Family: Steve
 Category: Transfer
-How badly do I need it: ⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 1
+Difficulty: 4
+Mastery: 4
 Ingest: No
 Staff Type: Contact
 id: 2c93dda4ebd245aaaccff5fbfdca6d8f

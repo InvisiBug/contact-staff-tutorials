@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Steve
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 3
+Mastery: 5
 Ingest: No
 Staff Type: Contact
 id: daf4ee34f9e7462b9b88b3d7f1f31189

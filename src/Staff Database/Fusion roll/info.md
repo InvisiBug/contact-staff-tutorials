@@ -2,8 +2,8 @@
 
 ---
 Status: Up next
-Difficulty: 💀💀💀
-Mastery: 🌟
+Difficulty: 3
+Mastery: 1
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Dragon

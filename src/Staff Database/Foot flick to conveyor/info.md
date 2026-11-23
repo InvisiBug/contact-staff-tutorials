@@ -4,7 +4,7 @@
 Status: Up next
 Family: Body Roll
 Category: Transfer
-Difficulty: 💀💀💀💀
+Difficulty: 4
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Youtube

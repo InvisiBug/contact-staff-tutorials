@@ -4,8 +4,8 @@
 Status: Up next
 Family: Arms
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀
+How badly do I need it: 3
+Difficulty: 4
 Ingest: No
 Me: Me
 Staff Type: Contact

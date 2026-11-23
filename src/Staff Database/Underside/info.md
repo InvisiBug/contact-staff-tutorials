@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Steve
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟
+How badly do I need it: 2
+Difficulty: 3
+Mastery: 2
 Extra notes: Good for learning the Matrix
 Ingest: No
 Staff Type: Contact

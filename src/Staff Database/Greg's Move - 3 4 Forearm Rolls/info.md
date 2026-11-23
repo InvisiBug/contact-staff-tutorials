@@ -3,9 +3,9 @@
 ---
 Status: Learned
 Family: Steve
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀💀💀
-Mastery: 🌟
+How badly do I need it: 4
+Difficulty: 4
+Mastery: 1
 Extra notes: Made OBE by forearm rolls
 Ingest: No
 Staff Type: Contact

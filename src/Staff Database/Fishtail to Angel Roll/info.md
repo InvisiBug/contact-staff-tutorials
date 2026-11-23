@@ -4,9 +4,9 @@
 Status: Training
 Family: Angel, Fishtail
 Category: Transfer
-How badly do I need it: ⭐⭐⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 4
+Difficulty: 2
+Mastery: 4
 Drill reps: Foundation
 Ingest: No
 Staff Type: Contact

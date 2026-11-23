@@ -4,9 +4,9 @@
 Status: Learning
 Family: Arms, Chi Folds
 Category: Combo
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 2
+Difficulty: 2
+Mastery: 3
 Drill reps: Chi Folds
 Ingest: No
 Staff Type: Contact

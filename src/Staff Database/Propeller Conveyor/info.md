@@ -4,8 +4,8 @@
 Status: Up next
 Family: Conveyor
 Category: Move
-How badly do I need it: ⭐⭐
-Difficulty: 💀💀💀
+How badly do I need it: 2
+Difficulty: 3
 Date: August 31, 2026
 Ingest: No
 Staff Type: Contact

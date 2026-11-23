@@ -4,10 +4,10 @@
 Status: Learning
 Family: Acro, Steve
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀💀💀💀💀
-Mastery: 🌟
-Drill reps: ⭐
+How badly do I need it: 3
+Difficulty: 5
+Mastery: 1
+Drill reps: 1
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta

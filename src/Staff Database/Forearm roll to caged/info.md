@@ -4,9 +4,9 @@
 Status: Learned
 Family: Steve
 Category: Combo
-How badly do I need it: ⭐⭐⭐⭐⭐
-Difficulty: 💀💀💀
-Mastery: 🌟🌟🌟🌟
+How badly do I need it: 5
+Difficulty: 3
+Mastery: 4
 Needs Media: Needs GIF
 Ingest: No
 Staff Type: Contact

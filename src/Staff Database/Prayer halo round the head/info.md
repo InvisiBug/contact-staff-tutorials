@@ -4,9 +4,9 @@
 Status: Learned
 Family: Halo
 Category: Move
-How badly do I need it: ⭐⭐⭐
-Difficulty: 💀
-Mastery: 🌟🌟🌟
+How badly do I need it: 3
+Difficulty: 1
+Mastery: 3
 Ingest: No
 Staff Type: Contact
 Where was it first learned: Insta
