@@ -6,7 +6,7 @@ family: SNES
 category: Move
 need: 4
 difficulty: 2
-mastery: 🌟🌟🌟🌟
+mastery: 4
 ingest: No
 propType: Contact
 Where was it first learned: Insta

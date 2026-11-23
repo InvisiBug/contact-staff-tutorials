@@ -6,7 +6,7 @@ family: Angel, Neck, SNES
 category: Foundation, Transfer
 need: 5
 difficulty: 4
-mastery: 🌟🌟🌟🌟
+mastery: 4
 ingest: No
 propType: Contact
 Where was it first learned: Insta

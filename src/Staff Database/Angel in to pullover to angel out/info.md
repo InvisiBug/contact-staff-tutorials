@@ -6,7 +6,7 @@ family: Angel, Lucero
 category: Combo
 need: 4
 difficulty: 4
-mastery: 🌟🌟
+mastery: 2
 Extra notes: Pinch with your cheek and shoulders
 ingest: No
 propType: Contact

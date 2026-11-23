@@ -6,7 +6,7 @@ family: Angel
 category: Move
 need: 5
 difficulty: 4
-mastery: 🌟🌟🌟
+mastery: 3
 Drill reps: Foundation
 ingest: No
 Me: Me

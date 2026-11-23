@@ -32,12 +32,16 @@ const MoveCard: FC<MoveCardProps> = ({ move }) => {
         <dl className="m-0 grid gap-0 text-sm">
           {Object.entries(move.meta)
             .filter(([property]) => property !== "id")
-            .map(([property, value]) => (
-            <div key={property} className="grid grid-cols-[minmax(6rem,auto)_1fr] gap-3">
-              <dt className="font-medium text-(--text-muted)">{property}</dt>
-              <dd className="m-0 text-(--text)">{formatMetaValue(value)}</dd>
-            </div>
-            ))}
+            .map(([property, value]) => {
+              const isOverridden = move.overriddenProperties?.includes(property) ?? false;
+
+              return (
+                <div key={property} className="grid grid-cols-[minmax(6rem,auto)_1fr] gap-3">
+                  <dt className={`font-medium ${isOverridden ? "text-(--accent)" : "text-(--text-muted)"}`}>{property}</dt>
+                  <dd className={`m-0 ${isOverridden ? "text-(--accent)" : "text-(--text)"}`}>{formatMetaValue(value)}</dd>
+                </div>
+              );
+            })}
         </dl>
 
         {/* {move.text && <p className="m-0 whitespace-pre-wrap text-sm leading-6 text-(--text)">{move.text}</p>} */}

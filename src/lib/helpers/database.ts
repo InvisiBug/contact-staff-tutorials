@@ -1,4 +1,5 @@
 import type { Move, Meta } from "@/lib/types";
+import { getMarkdownMeta, getUniqueMetadataProperties, parseMetaData } from "./metaData";
 
 const markdownFiles = import.meta.glob("/src/Staff Database/**/*.md", {
   query: "?raw",
@@ -63,54 +64,19 @@ const getText = (markdown: string): string =>
     .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
     .trim();
 
-const getMarkdownMeta = (markdown: string): Meta => {
-  const properties = {} as Meta;
-  const lines = markdown.split(/\r?\n/);
-
-  const frontmatterStart = lines.indexOf("---");
-
-  if (frontmatterStart !== -1) {
-    for (const line of lines.slice(frontmatterStart + 1)) {
-      if (line.trim() === "---") {
-        break;
-      }
-
-      const property = line.match(/^([^:]+):\s*(.*)$/);
-      if (property) {
-        const key = property[1].trim().toLowerCase();
-        const value = property[2].trim().toLowerCase();
-        const values = value
-          .split(",")
-          .map((item) => item.trim())
-          .filter(Boolean);
-
-        properties[key] = values.length > 1 ? values : [value];
-      }
-    }
-
-    console.log("🚀 ~ getMarkdownMeta ~ properties:", properties);
-    return properties;
-  }
-  return properties;
-};
-
-const countRating = (value: string | undefined, character: string): Meta["need"] => {
-  const numericValue = Number(value);
-  const count = Number.isFinite(numericValue) ? numericValue : (value?.match(new RegExp(`\\${character}`, "g"))?.length ?? 1);
-  return Math.min(5, Math.max(1, count)) as Meta["need"];
-};
-
 export const staffDatabase: Move[] = Object.entries(markdownFiles).map(([path, markdown]) => {
   const metadata = getMarkdownMeta(markdown);
+  const meta = parseMetaData(metadata);
 
   return {
     name: getMarkdownName(markdown, getFileName(getRelativePath(path))),
-    // meta: getMeta(metadata),
-    meta: metadata,
+    meta,
     gif: getMediaUrls(markdown, path),
     text: getText(markdown),
   };
 });
+
+export const staffDatabaseMetadata = getUniqueMetadataProperties(staffDatabase);
 
 export const getStaffDatabase = () => {
   return staffDatabase;

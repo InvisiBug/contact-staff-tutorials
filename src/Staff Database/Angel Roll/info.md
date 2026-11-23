@@ -6,7 +6,7 @@ family: Angel
 category: Fundamental
 need: 5
 difficulty: 2
-mastery: 🌟🌟🌟🌟
+mastery: 4
 Extra notes: Will need to learn left hand at some point
 Improvement notes: My left arm needs to be bent back more
 ingest: No
