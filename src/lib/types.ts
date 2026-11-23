@@ -10,7 +10,7 @@ export interface LightboxImage {
 export type Move = {
   name: string;
   meta: Meta;
-  overriddenProperties?: readonly string[];
+  userData?: Partial<Omit<Meta, "id">>;
   gif: string[];
   text: string;
 };

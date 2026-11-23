@@ -5,6 +5,7 @@ import { MovesContext, type MoveFilters } from "./useMovesContext";
 
 export const MovesContextProvider: FC<PropsWithChildren> = ({ children }) => {
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
+  const [showUserData, setShowUserData] = useState(true);
   const [filters, setFilters] = useState<MoveFilters>({});
 
   const moves = enrichStaffDatabase(getStaffDatabase(), getUserMoves())
@@ -15,5 +16,5 @@ export const MovesContextProvider: FC<PropsWithChildren> = ({ children }) => {
 
   const metadata = getUniqueMetadataProperties(moves);
 
-  return <MovesContext.Provider value={{ theme, setTheme, moves, filters, setFilters }}>{children}</MovesContext.Provider>;
+  return <MovesContext.Provider value={{ theme, setTheme, moves, showUserData, setShowUserData, filters, setFilters }}>{children}</MovesContext.Provider>;
 };

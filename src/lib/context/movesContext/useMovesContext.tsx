@@ -20,6 +20,8 @@ interface MovesContext {
   theme: Theme;
   setTheme: Dispatch<SetStateAction<Theme>>;
   moves: Move[];
+  showUserData: boolean;
+  setShowUserData: Dispatch<SetStateAction<boolean>>;
   filters: MoveFilters;
   setFilters: Dispatch<SetStateAction<MoveFilters>>;
 }

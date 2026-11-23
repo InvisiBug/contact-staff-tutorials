@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import type { Move } from "@/lib/types";
+import { useMovesContext } from "@/lib/context";
 
 const formatMetaValue = (value: unknown): string => {
   if (Array.isArray(value)) {
@@ -14,7 +15,17 @@ const formatMetaValue = (value: unknown): string => {
 };
 
 const MoveCard: FC<MoveCardProps> = ({ move }) => {
-  // console.log("🚀 ~ MoveCard ~ move:", move);
+  const { showUserData } = useMovesContext();
+
+  const enrichedMove: Move = {
+    ...move,
+    meta: {
+      ...move.meta,
+      ...Object.fromEntries(Object.entries(move.userData ?? {}).filter(([, value]) => value !== undefined)),
+    },
+  };
+
+  const displayedMove = showUserData ? enrichedMove : move;
 
   return (
     <article className="flex h-full max-w-full flex-col overflow-hidden rounded-[0.9rem] border border-(--line) bg-(--surface-soft) text-inherit">
@@ -30,10 +41,10 @@ const MoveCard: FC<MoveCardProps> = ({ move }) => {
         <h2 className="m-0 text-xl font-semibold">{move.name}</h2>
 
         <dl className="m-0 grid gap-0 text-sm">
-          {Object.entries(move.meta)
+          {Object.entries(displayedMove.meta)
             .filter(([property]) => property !== "id")
             .map(([property, value]) => {
-              const isOverridden = move.overriddenProperties?.includes(property) ?? false;
+              const isOverridden = showUserData && Object.prototype.hasOwnProperty.call(move.userData ?? {}, property);
 
               return (
                 <div key={property} className="grid grid-cols-[minmax(6rem,auto)_1fr] gap-3">
