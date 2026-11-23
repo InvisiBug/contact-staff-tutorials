@@ -1,0 +1,20 @@
+# Neckwrap 360
+
+---
+Status: Learned
+Family: Neck
+How badly do I need it: ⭐⭐⭐
+Difficulty: 💀💀💀
+Mastery: 🌟🌟🌟🌟
+Unlocks: Throat Wrap (Throat%20Wrap%2057c89f1f2ad64882b611d87a7c995a6d.md)
+Ingest: No
+Staff Type: Contact
+Where was it first learned: MCP
+id: 0cb274150754456a89ebe2c04abac939
+---
+
+![Sequence 06.gif](vid.gif)
+
+This is a strange variation of a halo 360, but involving only neck wraps, no halo rolls. Start like you would in a halo 360, but with the neck wrap and turn fast, keeping your neck bent so that the staff only turns over your neck. It's quite interesting a move, I don't know quite what to do with it yet.
+
+[https://youtu.be/2T5MV5jHL2U](https://youtu.be/2T5MV5jHL2U)

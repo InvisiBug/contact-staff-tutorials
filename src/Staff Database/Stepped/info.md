@@ -1,0 +1,17 @@
+# Stepped
+
+---
+Status: Learning
+Family: Steve
+How badly do I need it: ⭐⭐⭐
+Difficulty: 💀💀💀
+Mastery: 🌟🌟
+Extra notes: Think you may be able to go to an underside from this move
+Ingest: No
+Staff Type: Contact
+id: 4b823c2eed924e868db1629292400442
+---
+
+![Sequence 03.gif](vid.gif)
+
+[Stepped Steve - Contact Staff Tutorial - mcp (720p_24fps_H264-192kbit_AAC).mp4](Stepped/Stepped_Steve_-_Contact_Staff_Tutorial_-_mcp_(720p_24fps_H264-192kbit_AAC).mp4)

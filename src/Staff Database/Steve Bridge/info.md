@@ -1,0 +1,17 @@
+# Steve Bridge
+
+---
+Status: Learning
+Family: Steve
+Category: Move
+How badly do I need it: ⭐⭐⭐
+Difficulty: 💀💀💀💀
+Mastery: 🌟
+Date: July 22, 2025
+Ingest: No
+Staff Type: Contact
+Where was it first learned: Insta
+id: 2386b010191f801a8721e9803df87d51
+---
+
+![Timeline1-ezgif.com-optimize (7).gif](vid.gif)
